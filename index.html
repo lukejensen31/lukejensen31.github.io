@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Luke Jensen — Mechanical Engineering grad student. Portfolio of projects in design, robotics, and fabrication." />
     <title>Luke Jensen | Portfolio</title>
-  </head>
-  <body>
-    <h1>Luke Jensen</h1>
-    <p>Portfolio site — coming soon.</p>
 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  </head>
+
+  <body>
     <!-- Top Nav -->
     <header class="site-header">
       <nav class="nav container">
@@ -21,5 +23,210 @@
         </div>
       </nav>
     </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Mechanical Engineering · Design · Robotics</p>
+            <h1>
+              Building practical, hands-on systems—
+              <span class="accent">from CAD to reality.</span>
+            </h1>
+            <p class="lead">
+              I’m a Mechanical Engineering M.S. student at CU Boulder (May 2026) focused on
+              design, fabrication, and robotics. This site is my project vault + portfolio.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn" href="#projects">View projects</a>
+              <a class="btn btn-ghost" href="assets/LukeJensen_Resume.pdf" target="_blank" rel="noreferrer">
+                Resume (PDF)
+              </a>
+            </div>
+
+            <div class="quick-stats">
+              <div class="stat">
+                <div class="stat-num">5+</div>
+                <div class="stat-label">hands-on builds</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">CAD → Fab</div>
+                <div class="stat-label">design workflow</div>
+              </div>
+              <div class="stat">
+                <div class="stat-num">Robotics</div>
+                <div class="stat-label">controls + integration</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="avatar" aria-hidden="true">
+              <span>LJ</span>
+            </div>
+            <div class="card">
+              <h2 class="card-title">Currently</h2>
+              <ul class="bullets">
+                <li>Building a polished portfolio for internships (Disney + beyond)</li>
+                <li>Developing robotics projects & documenting builds</li>
+                <li>Hosting a homelab / self-hosted services</li>
+              </ul>
+              <p class="hint">
+                Tip: replace this card with a headshot later (assets/headshot.jpg).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p class="muted">
+              A few highlights. Each will eventually get its own page with a full write-up.
+            </p>
+          </div>
+
+          <div class="grid">
+            <!-- Project Card -->
+            <article class="project">
+              <div class="project-top">
+                <h3>WWII Ford GPW Jeep Restoration</h3>
+                <p class="tag">Fabrication · Mechanisms</p>
+              </div>
+              <p>
+                Full disassembly and restoration work including custom seating mechanism,
+                welding, and iterative fit-up.
+              </p>
+              <div class="project-links">
+                <a href="#" aria-disabled="true" class="link disabled">Case study (soon)</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>Servo-driven Iron Man Helmet</h3>
+                <p class="tag">Mechatronics · Linkages</p>
+              </div>
+              <p>
+                Arduino-driven faceplate mechanism with LED integration, custom linkages,
+                and finishing/paint.
+              </p>
+              <div class="project-links">
+                <a href="#" aria-disabled="true" class="link disabled">Case study (soon)</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>Robotics Coursework Projects</h3>
+                <p class="tag">Planning · Control</p>
+              </div>
+              <p>
+                RRT planning, inverse kinematics, and simulation-focused projects
+                with clean documentation and demos.
+              </p>
+              <div class="project-links">
+                <a href="#" aria-disabled="true" class="link disabled">Case study (soon)</a>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-top">
+                <h3>Homelab + Self-hosted Stack</h3>
+                <p class="tag">Infrastructure · Docker</p>
+              </div>
+              <p>
+                Ubuntu server running Docker services (Minecraft servers, monitoring),
+                plus backups and security-minded setup.
+              </p>
+              <div class="project-links">
+                <a href="#" aria-disabled="true" class="link disabled">Write-up (soon)</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section section-alt">
+        <div class="container about">
+          <div>
+            <h2>About</h2>
+            <p class="lead">
+              I like projects where the answer isn’t just “design it,” but “make it work.”
+            </p>
+            <p class="muted">
+              My focus is mechanical design that connects to fabrication, prototyping, and
+              system integration (sensors, actuators, controls). I’m especially excited by
+              themed entertainment / experiential design and practical robotics.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Skills snapshot</h3>
+            <div class="chips">
+              <span class="chip">SolidWorks</span>
+              <span class="chip">Rapid prototyping</span>
+              <span class="chip">Machining</span>
+              <span class="chip">Mechanisms</span>
+              <span class="chip">Robotics</span>
+              <span class="chip">Python/MATLAB</span>
+              <span class="chip">Arduino</span>
+              <span class="chip">Documentation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section">
+        <div class="container contact">
+          <div>
+            <h2>Contact</h2>
+            <p class="muted">
+              Easiest way to reach me is email. I’m happy to share more details,
+              CAD screenshots, or a longer project breakdown.
+            </p>
+
+            <div class="contact-actions">
+              <a class="btn" href="mailto:YOUR_EMAIL_HERE">Email me</a>
+              <a class="btn btn-ghost" href="https://www.linkedin.com/in/YOUR_LINKEDIN_HERE/" target="_blank" rel="noreferrer">
+                LinkedIn
+              </a>
+              <a class="btn btn-ghost" href="https://github.com/YOUR_GITHUB_HERE" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+
+            <p class="hint">
+              Replace the placeholders above. If you don’t want your email public, we can
+              use a simple contact form alternative later (or just LinkedIn).
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Quick note</h3>
+            <p class="muted">
+              This site is intentionally simple: fast load, clean sections, and easy to expand
+              into individual project pages when you’re ready.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="muted">© <span id="year"></span> Luke Jensen</p>
+        <p class="muted">Built on GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
